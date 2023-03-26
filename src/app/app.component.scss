@@ -1,0 +1,68 @@
+.wrapper {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #cccccc;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+.book-cards-container {
+  border: 1px solid red;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  row-gap: 32px;
+  grid-auto-rows: auto;
+  @media screen and (max-width: 1014px) {
+
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 18px;
+    row-gap: 24px;
+  }
+
+
+  @media screen and (max-width: 673px) {
+
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  @media screen and (max-width: 466px) {
+
+    justify-items: center;
+    grid-template-columns: 100%;
+
+
+    //display: grid;
+    //grid-template-columns: 1fr 1fr 1fr;
+    //grid-auto-rows: auto;
+    //margin: 0 auto;
+    //border: 1px solid red;
+  }
+}

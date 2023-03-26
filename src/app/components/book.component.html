@@ -1,0 +1,19 @@
+<div class="book-card">
+
+
+  <img class="book-card__image" src="{{book.image}}" alt="{{book.title}}">
+
+  <div class="book-card__info">
+    <h3 class="book-card__title">{{book.title}}</h3>
+    <h4 class="book-card__author">{{book.author}}</h4>
+    <p class="book-card__genre">{{book.genre}}</p>
+    <p class="book-card__year">{{book.published}}</p>
+    <p class="book-card__description" *ngIf="isVisible">{{book.description}}</p>
+    <button (click)="isVisible = !isVisible" >Description</button>
+  </div>
+</div>
+
+
+<!--`url(${state.image})`-->
+
+<!--[src]="product.image-->
