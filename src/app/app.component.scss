@@ -1,22 +1,13 @@
-
-
 .wrapper {
-
   margin: 0 auto -100px;
   padding: 0 15px;
-
-
   max-width: 1296px;
   min-height: 100%;
-
-
-
   box-sizing: content-box;
 }
 
 .push {
   height: 100px;
-
 }
 
 header {
@@ -26,25 +17,27 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-
   align-items: center;
-  background-color: #575757;
+  background-color: #838282;
+
   ul {
     display: flex;
     gap: 8px;
-
-
   }
+
   li {
     list-style: none;
+
     :hover {
       color: #89bbf5;
     }
   }
+
   a {
     text-decoration: none;
     color: white;
   }
+
   nav {
     list-style: none;
   }
@@ -57,7 +50,8 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: #575757;
+  background-color: #838282;
+
   p {
     color: white;
   }

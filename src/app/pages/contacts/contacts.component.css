@@ -1,0 +1,17 @@
+div {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+}
+
+a:hover {
+  color: #89bbf5;
+}

@@ -1,28 +1,13 @@
-
-
 .book-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  //display: flex;
-  //flex-direction: column;
-  //align-items: center;
-  //justify-content: center;
-  //padding: 25px 15px;
-  //border: 1px solid #ccc;
-  //border-radius: 8px;
-  //background-color: #fff;
-  //background-position: center;
-  //background-size: cover;
-  //
-  //max-width: 400px;
-  //
-  //font-family: Roboto, sans-serif;
   position: relative;
   width: 100%;
   max-width: 306px;
   max-height: 500px;
   overflow: hidden;
+
   .book-card__title {
     max-width: 100%;
     margin: 8px 0 0;
@@ -57,15 +42,15 @@
     border-radius: 8px;
     border: 1px solid gray;
     overflow: hidden;
-
   }
 
   .book-card__title {
     font-size: 20px;
     margin-bottom: 8px;
   }
+
   .book-card__author {
-   margin: 0 auto 30px;
+    margin: 0 auto 30px;
     font-size: 18px;
   }
 
@@ -74,40 +59,20 @@
     font-size: 16px;
   }
 
+  .book-card__image {
+    height: 240px;
+    width: 182px;
+    display: flex;
+    border-radius: 4px;
+    transition: ease-out .2s;
+    will-change: transform;
 
-
-
-
-.book-card__image {
-  height: 240px;
-width: 182px;
-  display: flex;
-  border-radius: 4px;
-  transition: ease-out .2s;
-  will-change: transform;
-
-}
+  }
 
   button {
     margin-top: 40px;
     border: none;
     border-radius: 20px;
-
   }
-
-  button:hover {
-    //cursor: pointer;
-    //opacity: .6;
-  }
-
-
- //.card__image {
- //  width: 100%;
- //  height: 100%;
- //  object-fit: cover;
- //
- //  box-sizing: border-box;
- //}
-
 }
 
