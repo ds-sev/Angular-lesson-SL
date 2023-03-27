@@ -1,27 +1,11 @@
-# AngularLesson
+# Angular-lesson / SolarLab &ensp;<img src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original.svg" width="40px">&ensp;
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+📝 **ДЗ 24.03.23:**
 
-## Development server
+* Создать первый проект Angular. Подключить api. Обработать типы получаемых данных.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+🛠️ **Выполнение работы:**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* В ходе выполнения практического задания создал первый проект с помощью фреймвока Angular. Ознакомился с его базовым функционалом.
+К проекту подключен api-сервис. Попрактиковался в работе с разметкой, стилями. Также, подключил библиотеку Material с готовыми компонентами и интегрировал в проект котовый элемент из неё. Для итогового проекта собран билд и произведен деплой на GitHub Pages: [Посмотреть готовый проект](https://ds-sev.github.io/Angular-lesson-SL/catalog)
