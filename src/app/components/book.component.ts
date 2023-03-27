@@ -1,5 +1,6 @@
 import {Component, Input} from "@angular/core";
 import {IBook} from "../interface/book";
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
     selector: 'app-book',

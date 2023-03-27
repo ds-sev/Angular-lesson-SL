@@ -1,6 +1,9 @@
 
 
 .book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   //display: flex;
   //flex-direction: column;
   //align-items: center;
@@ -18,7 +21,7 @@
   position: relative;
   width: 100%;
   max-width: 306px;
-  max-height: 600px;
+  max-height: 500px;
   overflow: hidden;
   .book-card__title {
     max-width: 100%;
@@ -32,9 +35,43 @@
     line-height: 24px;
     color: #3b82f6;
   }
+
+  .book-card__info {
+    text-align: center;
+
+  }
+
+  .book-card__year {
+    font-size: 14px;
+  }
+
   .book-card__description {
-    height: 100px;
+    padding: 5px;
+    position: absolute;
+    background-color: aliceblue;
+    box-sizing: content-box;
+    top: 280px;
+    left: 0;
+    right: 0;
+    height: 125px;
+    border-radius: 8px;
+    border: 1px solid gray;
     overflow: hidden;
+
+  }
+
+  .book-card__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .book-card__author {
+   margin: 0 auto 30px;
+    font-size: 18px;
+  }
+
+  .book-card__genre {
+    margin-bottom: 30px;
+    font-size: 16px;
   }
 
 
@@ -43,13 +80,25 @@
 
 .book-card__image {
   height: 240px;
-  max-width: 100%;
+width: 182px;
   display: flex;
   border-radius: 4px;
   transition: ease-out .2s;
   will-change: transform;
 
 }
+
+  button {
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+
+  }
+
+  button:hover {
+    //cursor: pointer;
+    //opacity: .6;
+  }
 
 
  //.card__image {

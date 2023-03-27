@@ -9,7 +9,7 @@ import {IBook} from "./interface/book";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  title = 'angular-lesson';
+  title = 'Book$tore';
 
   books: IBook[] = []
 
@@ -19,7 +19,6 @@ export class AppComponent implements OnInit{
     this._productService.getList()
     .subscribe(response =>{
       this.books = response.data
-      console.log(response.data)
     })
 
   }
