@@ -8,6 +8,7 @@ import {FormComponent} from "./pages/feedback/feedback/form.component";
 const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: '', component: CatalogComponent},
+  {path: 'catalog', component: CatalogComponent},
   {path: 'contacts', component: ContactsComponent},
   {path: 'form', component: FormComponent}
 ]
