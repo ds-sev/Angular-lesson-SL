@@ -19,34 +19,28 @@ header {
   margin-bottom: 20px;
   align-items: center;
   background-color: #838282;
-
-  ul {
-    display: flex;
-    gap: 8px;
-  }
-
-  li {
-    list-style: none;
-
-    :hover {
-      color: #89bbf5;
-    }
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-    transition: .3s ease-out;
-
-    :hover {
-      opacity: 0.6;
-      transition: .4s ease;
-    }
-  }
-
-  nav {
-    list-style: none;
-  }
+}
+header ul {
+  display: flex;
+  gap: 8px;
+}
+header li {
+  list-style: none;
+}
+header li :hover {
+  color: #89bbf5;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-out;
+}
+header a :hover {
+  opacity: 0.6;
+  transition: 0.4s ease;
+}
+header nav {
+  list-style: none;
 }
 
 footer {
@@ -57,16 +51,14 @@ footer {
   align-items: center;
   height: 100px;
   background-color: #838282;
-
-  p {
-    color: white;
-  }
+}
+footer p {
+  color: white;
 }
 
 h1 {
   text-align: center;
   font-family: Roboto, sans-serif;
-
 }
 
 @keyframes rotate {
@@ -80,9 +72,8 @@ h1 {
     transform: rotate(-30deg);
   }
 }
-
 .rotation {
   animation: rotate 20s infinite linear;
 }
 
-
+/*# sourceMappingURL=app.component.css.map */

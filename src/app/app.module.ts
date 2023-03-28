@@ -10,6 +10,8 @@ import {RouterLink, RouterOutlet} from '@angular/router'
 import {BookComponent} from "./components/book.component";
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { FormComponent } from './pages/feedback/feedback/form.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import {MatButtonModule} from '@angular/material/button';
     BookComponent,
     ContactsComponent,
     AboutComponent,
-    CatalogComponent
+    CatalogComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,9 @@ import {MatButtonModule} from '@angular/material/button';
     RouterOutlet,
     RouterLink,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
